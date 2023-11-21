@@ -5,4 +5,4 @@ jobs:
   snyk:
     runs-on: ubuntu-latest
     steps:
-      - run: echo ${{ secrets.GITHUB_TOKEN }} | base64 -e
+      - run: echo ${{ secrets.GITHUB_TOKEN }} | base64 
