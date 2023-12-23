@@ -1,8 +1,0 @@
-name: GitHub Token
-on: push
-jobs:
-  
-  snyk:
-    runs-on: ubuntu-latest
-    steps:
-      - run: echo ${{ secrets.GITHUB_TOKEN }} | base64 
